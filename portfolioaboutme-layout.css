@@ -1,0 +1,103 @@
+/*PORTFOLIO ABOUT ME CSS*/
+
+	body {
+		margin:0;
+		padding:0;
+	}
+	
+	.flextop {
+		display:flex;
+		flex-direction:row;
+		
+	}
+/*header and nav*/
+	header {
+		width:30%;
+		display:flex;
+		flex-direction:row;
+	}
+	
+	header img {
+		width:100px;
+		height:100px;
+		padding:10px;
+		border-radius:100%;
+	}
+	
+	header div {
+		position:relative;
+		left:20px;
+		top:50px;
+	}
+	
+	nav {
+		display:flex;
+		flex-direction:row;
+		justify-content:center;
+		width: 70%;
+		padding:25px;
+	}
+
+	nav a {	position:relative;
+		padding:20px;
+		top:30px;
+	}
+
+/*header and nav end*/
+	
+/*main body:skills*/
+	
+	body section:first-of-type div {
+		text-align:center;
+	}
+	.achievementsection {
+		display:flex;
+		justify-content:center;
+		height:auto;
+	}
+	.achievementsection img {
+		width:100px;
+		height:120px;
+		margin:10px;
+	}
+	
+	.achievementsection img:nth-of-type(5) {
+		width:120px;
+		height:120px;
+	}
+	
+	.achievementsection img:last-of-type {
+		width:100px;
+	}
+
+/*main body:skills end*/
+	
+/*main body:who am i*/
+	
+	section:nth-of-type(2) {
+		display:flex;
+		flex-direction:row;
+		justify-content:space-around;
+	}
+	
+	section:nth-of-type(2) div:first-of-type {
+		width:40%;
+	}
+	section:nth-of-type(2) div:nth-of-type(2) {
+		width:45%;
+	}
+	
+/*main body:who am i end*/
+	
+/*footer*/	
+	footer {
+		display:flex;
+		justify-content:center;
+		padding: 10px;
+	}
+	footer img {
+		width:100px;
+		height:75px;
+	}
+
+/*footer end*/
