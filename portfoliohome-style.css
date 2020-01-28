@@ -1,0 +1,55 @@
+/*PORTFOLIO HOME CSS STYLE*/
+	body {
+		font-family: "Cabin Sketch", Helvetica, Ariel;
+		color:white;
+		font-size:25px;
+	}
+/*header and nav*/
+	header, nav {
+		background-color:black;
+	}
+	nav a {
+		color:white;
+		text-decoration:none;
+		padding:20px;
+	}
+	
+	nav a:hover {
+		color: blue;
+	}
+/*header and nav end*/
+
+/*background image*/
+	.mainbackground {
+		background-image: url("http://tamerapeake.us.tempcloudsite.com/portfolio/portfoliowebpage/homepageimages/desmoinesnight.jpg");
+		background-repeat: no-repeat;
+		background-size: cover;
+		animation-name: desmoinesbackground;
+		animation-duration:7s;
+		animation-iteration-count:infinite;
+		background-color:black;
+	}
+	
+/*background image end*/
+
+
+/*footer*/
+	img {
+		filter:grayscale(100%);
+	}
+
+	img:hover {
+		filter:grayscale(0%);
+	}
+/*footer end*/
+
+/*keyframes*/
+
+@keyframes desmoinesbackground {
+	0% {filter: grayscale(0%);}
+	50% {filter:grayscale(100%);}	
+	100% {filter: grayscale(0%);}
+	
+}
+	
+/*keyframes end*/
