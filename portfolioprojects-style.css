@@ -1,0 +1,100 @@
+body {
+		font-family: "Cabin Sketch", Helvetica, Arial;
+		font-size:25px;
+		overflow:none;
+	}
+	
+/*header and nav*/
+	header {
+		color:white;
+		background-color:black;
+	}
+	
+	
+	nav {
+		background-color:black;
+	}
+
+	nav a {
+		color:white;
+		text-decoration:none;
+	}
+	
+	nav a:hover {
+		color: blue;
+	}
+/*header and nav end*/
+/*body*/
+	.headerproject {
+		font-weight:bold;
+	}
+	
+	.projectssection div {
+		filter:grayscale(100%);
+		color:white;
+		text-shadow: 2px 2px black;
+	}
+	.projectssection div:hover {
+		filter:grayscale(30%);
+	}
+	
+	.projectssection:first-of-type div:first-of-type {
+		background-image: url("http://tamerapeake.us.tempcloudsite.com/portfolio/portfoliowebpage/homepageimages/cat.jpg");
+		background-repeat:no-repeat;
+		background-size:cover;
+		font-weight:bold;	
+	}
+	
+	.projectssection:first-of-type div:nth-of-type(2) {
+		background-image: url("http://tamerapeake.us.tempcloudsite.com/portfolio/portfoliowebpage/homepageimages/springrolls.jpg");
+		background-repeat:no-repeat;
+		background-size:cover;
+		font-weight:bold;
+	}
+	
+	.projectssection:first-of-type div:nth-of-type(3) {
+		background-image: url("http://tamerapeake.us.tempcloudsite.com/portfolio/portfoliowebpage/homepageimages/ride.jpg");
+		background-repeat:no-repeat;
+		background-size:cover;
+		font-size:30px;
+		font-weight:bold;
+	}
+	.projectssection:nth-of-type(2) div:first-of-type {
+		background-image: url("http://tamerapeake.us.tempcloudsite.com/portfolio/portfoliowebpage/homepageimages/diceimage.png");
+		background-repeat:no-repeat;
+		background-size:cover;
+		font-weight:bold;	
+	}
+	
+	.projectssection:nth-of-type(2) div:nth-of-type(2) {
+		background-image: url("http://tamerapeake.us.tempcloudsite.com/portfolio/portfoliowebpage/homepageimages/piza-3010062_1280.jpg");
+		background-repeat:no-repeat;
+		background-size:cover;
+		font-weight:bold;	
+	}
+	
+	.projectssection:nth-of-type(2) div:nth-of-type(3) {
+		background-image: url("http://tamerapeake.us.tempcloudsite.com/portfolio/portfoliowebpage/homepageimages/milky-way-984050_640.jpg");
+		background-repeat:no-repeat;
+		background-size:cover;
+		font-weight:bold;	
+	}
+	
+	a {
+		text-decoration:none;
+		color:white;
+	}
+
+/*body end*/
+/*footer*/	
+	footer {
+		background-color:black;
+	}
+	footer img {
+		filter:grayscale(100%);
+	}
+
+	footer img:hover {
+		filter:grayscale(0%);
+	}
+/*footer end*/
