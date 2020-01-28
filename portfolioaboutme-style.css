@@ -1,0 +1,60 @@
+/*PORTFOLIO ABOUT ME CSS*/
+
+	body {
+		background-color:black;
+		font-family: "Cabin Sketch", Helvetica, Arial;
+		color:white;
+		font-size:25px;
+		overflow:none;
+
+	}
+	
+/*header and nav*/
+
+	nav a {	color:white;
+		text-decoration:none;
+	}
+	
+	nav a:hover {
+		color: blue;
+	}
+/*header and nav end*/
+	
+/*main body:skills*/
+	section {
+		color:black;
+		background-color:white;
+	}
+	
+	.achievementsection img {
+		filter:grayscale(100%);
+	}
+	
+	.achievementsection img:hover {
+		filter:grayscale(0%);
+	}
+
+	section:first-of-type div {
+		font-size:30px;
+		font-weight:bold;
+	}
+/*main body:skills end*/
+	
+/*main body:who am i*/
+	
+	section:nth-of-type(2) div:first-of-type {
+		font-size:30px;
+		font-weight:bold;
+	}
+	
+/*main body:who am i end*/
+	
+/*footer*/	
+	footer img {
+		filter:grayscale(100%);
+	}
+
+	footer img:hover {
+		filter:grayscale(0%);
+		}
+/*footer end*/
