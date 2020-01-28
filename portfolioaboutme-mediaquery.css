@@ -1,0 +1,337 @@
+/*MEDIA QUERIES*/
+	/*large devices*/
+		@media only screen and (min-device-width : 768px) and (max-device-width : 1300px) {
+				
+		body {
+			font-size:30px;
+		}
+		
+		.fullcontainter {
+			width:auto;
+		}
+		
+		.flextop {
+			width:auto;	
+		}
+/*header and nav*/
+		header {
+			width:30%;
+		}
+
+/*header and nav end*/
+	
+/*main body:skills*/
+		.achievementsection {
+			width:auto;
+		}
+		
+/*main body:skills end*/
+	
+/*main body:who am i*/
+		section {
+			width:auto;
+			height:auto;
+		}
+		
+/*main body:who am i end*/
+	
+/*footer*/	
+		footer {
+			width:auto;
+		}
+
+/*footer end*/
+		}
+		
+	/*medium devices*/
+		@media only screen and (min-device-width : 480px) and (max-device-width: 768px) {
+		body {
+			font-size:40px;
+		}
+		
+		.fullcontainter {
+			width:auto;
+			margin:0;
+			padding:0;
+		}
+		
+		.flextop {
+			width:auto;
+			display:flex;
+			flex-direction:column;
+			margin:0;
+			padding:0;
+		}
+/*header and nav*/
+		header {
+			width:auto;
+			padding:0px;
+		}
+
+		header div {
+			position:relative;
+			left:10px;
+			top:25px;
+		}
+/*header and nav end*/
+	nav {
+		width: 750px;
+		padding:0px;
+		font-size:35px;
+	}
+
+	nav a {	
+		position:relative;
+		padding:10px;
+		padding-top:10px;
+		top:0px;
+	}
+	
+/*main body:skills*/
+		.achievementsection {
+			width:auto;
+			height:auto;
+			padding:0px;
+			display:flex;
+			flex-wrap:wrap;
+			margin:0px;
+		}
+		
+		.achievementsection img {
+			width:120px;
+			height:120px;
+			margin:0px;
+		}
+		
+		.achievementsection img:nth-of-type(4) {
+			position:relative;
+			top:10px;
+		}
+		
+/*main body:skills end*/
+	
+/*main body:who am i*/
+		section:first-of-type {
+			width:750px;
+		}
+		
+		section:nth-of-type(2) {
+			width:750px;
+			height:auto;
+		}
+		
+		section:nth-of-type(2) div:first-of-type {
+			width:45%;
+			position:relative;
+			top:15%;
+			text-size: 40px;
+		}
+		
+		section:nth-of-type(2) div:nth-of-type(2) {
+			width:45%;
+			padding-right:0px;
+			font-size:30px;
+		}
+		
+/*main body:who am i end*/
+	
+/*footer*/	
+		footer {
+			width:750px;
+		}
+
+/*footer end*/
+
+/*footer end*/
+		}
+		
+		
+	/*small devices*/
+		@media only screen and (min-device-width : 300px) and (max-device-width : 480px) {
+		body {
+			font-size:40px;
+		}
+		
+		.fullcontainter {
+			width:auto;
+		}
+		
+		.flextop {
+			width:auto;
+			display:flex;
+			flex-direction:column;
+		}
+/*header and nav*/
+		header {
+			width:auto;
+			padding:0px;
+		}
+
+		header div {
+			position:relative;
+			left:10px;
+			top:25px;
+		}
+/*header and nav end*/
+	nav {
+		width: 440px;
+		padding:0px;
+		font-size:35px;
+	}
+
+	nav a {	
+		position:relative;
+		padding:10px;
+		padding-top:10px;
+		top:0px;
+	}
+	
+	nav a:nth-of-type(2) {display:none;}
+
+/*main body:skills*/
+		.achievementsection {
+			width:auto;
+			height:auto;
+			padding:0px;
+			display:flex;
+			flex-wrap:wrap;
+		}
+		
+		.achievementsection img {
+			width:100px;
+			height:100px;
+			margin:0px;
+		}
+		
+		.achievementsection img:nth-of-type(4) {
+			position:relative;
+			top:10px;
+		}
+		
+/*main body:skills end*/
+	
+/*main body:who am i*/
+		section:first-of-type {
+			width:440px;
+		}
+		
+		section:nth-of-type(2) {
+			width:440px;
+			height:900px;
+		}
+		
+		section:nth-of-type(2) div:first-of-type {
+			position:relative;
+			top:15%;
+			text-size: 40px;
+		}
+		
+		section:nth-of-type(2) div:nth-of-type(2) {
+			padding-right:30px;
+			font-size:30px;
+		}
+		
+/*main body:who am i end*/
+	
+/*footer*/	
+		footer {
+			width:440px;
+		}
+
+/*footer end*/
+		}
+		
+	@media only screen and (max-device-width : 300px) {
+		body {
+			font-size:40px;
+		}
+		
+		.fullcontainter {
+			width:auto;
+		}
+		
+		.flextop {
+			width:auto;
+			display:flex;
+			flex-direction:column;
+		}
+/*header and nav*/
+		header {
+			width:auto;
+			padding:0px;
+		}
+
+		header div {
+			position:relative;
+			left:10px;
+			top:25px;
+		}
+/*header and nav end*/
+	nav {
+		width: 300px;
+		padding:0px;
+		font-size:35px;
+	}
+
+	nav a {	
+		position:relative;
+		padding:10px;
+		padding-top:10px;
+		top:0px;
+	}
+	
+	nav a:nth-of-type(2) {display:none;}
+
+/*main body:skills*/
+		.achievementsection {
+			width:auto;
+			height:auto;
+			padding:0px;
+			display:flex;
+			flex-wrap:wrap;
+		}
+		
+		.achievementsection img {
+			width:100px;
+			height:100px;
+			margin:0px;
+		}
+		
+		.achievementsection img:nth-of-type(4) {
+			position:relative;
+			top:10px;
+		}
+		
+/*main body:skills end*/
+	
+/*main body:who am i*/
+		section:first-of-type {
+			width:300px;
+		}
+		
+		section:nth-of-type(2) {
+			width:300px;
+			height:900px;
+		}
+		
+		section:nth-of-type(2) div:first-of-type {
+			position:relative;
+			top:15%;
+			text-size: 40px;
+		}
+		
+		section:nth-of-type(2) div:nth-of-type(2) {
+			padding-right:30px;
+			font-size:30px;
+		}
+		
+/*main body:who am i end*/
+	
+/*footer*/	
+		footer {
+			width:300px;
+		}
+
+/*footer end*/
+		}
+/*Media Queries End*/
